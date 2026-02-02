@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Varshini | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-image: url("123.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: purple;
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 80px 40px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+    header h2 {
+      font-size: 28px;
+    }
+    .contact-box {
+      background-color: purple;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: purple;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    nav a:hover {
+      color: black;
+    }
+    #home {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .intro {
+      max-width: 600px;
+    }
+    .intro h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .intro p {
+      font-size: 20px;
+    }
+    .profile-img {
+      width: 220px;
+      border-radius: 12px;
+    }
+    .social-icons {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+    }
+    .social-icons a {
+      font-size: 24px;
+      color: purple;
+      margin-right: 15px;
+    }
+
+    .social-icons a:hover {
+      color: black;
+    }
+    .center-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: rgba(255, 192, 203, 0.85);
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    @media (max-width: 768px) {
+      #home {
+        flex-direction: column;
+        text-align: center;
+      }
+      .profile-img {
+        margin-top: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>Portfolio</h2>
+  <div class="contact-box">Contact</div>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#contact">Contact</a>
+</nav>
+<section id="home">
+  <div class="intro">
+    <h1>Hi, I am Varshini!</h1>
+    <p>B.Tech in Information Technology | Aspiring Data Analyst</p>
+  </div>
+  <img src="download.png" alt="Profile Image" class="profile-img">
+</section>
+<section id="about" class="center-section">
+  <h2>About Me</h2>
+  <p>
+    Hello! I’m <b>Varshini</b>, a B.Tech Information Technology student passionate
+    about learning new technologies and building simple web projects.
+  </p>
+  <p>
+    I am exploring web development, programming, and data analysis.
+    I enjoy problem-solving and continuous learning.
+  </p>
+</section>
+<section id="skills" class="center-section">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML & CSS</li>
+    <li>Python Programming</li>
+    <li>Java Basics</li>
+    <li>Problem Solving</li>
+    <li>Data Analysis (Beginner)</li>
+  </ul>
+</section>
+<section id="achievements" class="center-section">
+  <h2>Achievements</h2>
+  <ul>
+    <li>Completed beginner web development projects</li>
+    <li>Participated in HackerRank coding challenges</li>
+    <li>Consistent academic performance</li>
+  </ul>
+</section>
+<section id="contact" class="center-section">
+  <h2>Contact Me</h2>
+  <p>Email: <b>varshinixa1@gmail.com</b></p>
+  <p>LinkedIn: <b>linkedin.com/in/varshini</b></p>
+  <p>GitHub: <b>github.com/varshini</b></p>
+</section>
+
+<div class="social-icons">
+  <a href="#"><i class="fab fa-linkedin"></i></a>
+  <a href="#"><i class="fab fa-github"></i></a>
+  <a href="#"><i class="fab fa-facebook"></i></a>
+</div>
+
+</body>
+</html>
